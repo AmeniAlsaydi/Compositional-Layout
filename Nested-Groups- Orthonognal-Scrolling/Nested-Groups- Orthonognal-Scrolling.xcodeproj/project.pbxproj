@@ -14,6 +14,7 @@
 		B79C845D24F4037400962565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79C845C24F4037400962565 /* Assets.xcassets */; };
 		B79C846024F4037400962565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79C845E24F4037400962565 /* LaunchScreen.storyboard */; };
 		B79C846824F403E700962565 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C846724F403E700962565 /* LabelCell.swift */; };
+		B79C846A24F413CA00962565 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C846924F413CA00962565 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B79C845F24F4037400962565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B79C846124F4037400962565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B79C846724F403E700962565 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		B79C846924F413CA00962565 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B79C845324F4037000962565 /* AppDelegate.swift */,
 				B79C845524F4037000962565 /* SceneDelegate.swift */,
 				B79C845724F4037000962565 /* ViewController.swift */,
+				B79C846924F413CA00962565 /* HeaderView.swift */,
 				B79C846724F403E700962565 /* LabelCell.swift */,
 				B79C845924F4037000962565 /* Main.storyboard */,
 				B79C845C24F4037400962565 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79C846A24F413CA00962565 /* HeaderView.swift in Sources */,
 				B79C845824F4037000962565 /* ViewController.swift in Sources */,
 				B79C845424F4037000962565 /* AppDelegate.swift in Sources */,
 				B79C846824F403E700962565 /* LabelCell.swift in Sources */,
