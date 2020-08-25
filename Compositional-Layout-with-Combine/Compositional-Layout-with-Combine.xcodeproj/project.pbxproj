@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B7049B7124F55B1000A619AC /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7049B7024F55B1000A619AC /* ImageCell.swift */; };
 		B7049B7524F565CD00A619AC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7049B7424F565CD00A619AC /* APIClient.swift */; };
+		B7049B7F24F58EFD00A619AC /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7049B7E24F58EFD00A619AC /* Config.swift */; };
 		B729B05D24F5561200DDEF1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B729B05C24F5561200DDEF1F /* AppDelegate.swift */; };
 		B729B05F24F5561200DDEF1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B729B05E24F5561200DDEF1F /* SceneDelegate.swift */; };
 		B729B06124F5561200DDEF1F /* PhotoSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B729B06024F5561200DDEF1F /* PhotoSearchViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		B7049B7024F55B1000A619AC /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		B7049B7424F565CD00A619AC /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B7049B7E24F58EFD00A619AC /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B729B05924F5561200DDEF1F /* Compositional-Layout-with-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional-Layout-with-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B729B05C24F5561200DDEF1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B729B05E24F5561200DDEF1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7049B8024F58F0C00A619AC /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				B7049B7E24F58EFD00A619AC /* Config.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 		B729B05024F5561200DDEF1F = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		B729B05B24F5561200DDEF1F /* Compositional-Layout-with-Combine */ = {
 			isa = PBXGroup;
 			children = (
+				B7049B8024F58F0C00A619AC /* Secrets */,
 				B729B05C24F5561200DDEF1F /* AppDelegate.swift */,
 				B729B05E24F5561200DDEF1F /* SceneDelegate.swift */,
 				B729B06024F5561200DDEF1F /* PhotoSearchViewController.swift */,
@@ -148,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B729B06124F5561200DDEF1F /* PhotoSearchViewController.swift in Sources */,
+				B7049B7F24F58EFD00A619AC /* Config.swift in Sources */,
 				B7049B7124F55B1000A619AC /* ImageCell.swift in Sources */,
 				B729B05D24F5561200DDEF1F /* AppDelegate.swift in Sources */,
 				B729B05F24F5561200DDEF1F /* SceneDelegate.swift in Sources */,
