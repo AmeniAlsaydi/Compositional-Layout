@@ -9,5 +9,6 @@
 import Foundation
 
 struct Config {
+    
   static let apikey = "API KEY GOES HERE FOR THE PIXABAY API"
 }
