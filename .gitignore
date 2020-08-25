@@ -90,3 +90,5 @@ fastlane/test_output
 iOSInjectionProject/
 
 **/Secrets
+.DS_Store
+
